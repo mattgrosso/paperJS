@@ -1,0 +1,33 @@
+{
+  "name": "paperjs",
+  "version": "1.0.0",
+  "description": "This repo was built by Matt Grosso and he obviously hasn't gotten around to creating a readme yet.",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattgrosso/paperJS.git"
+  },
+  "author": "Matt Grosso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattgrosso/paperJS/issues"
+  },
+  "homepage": "https://github.com/mattgrosso/paperJS#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0",
+    "time-grunt": "^1.4.0"
+  }
+}

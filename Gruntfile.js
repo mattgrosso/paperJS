@@ -72,7 +72,7 @@ module.exports = function(grunt) {
 
     require('time-grunt')(grunt);
 
-    grunt.registerTask('js-build', ['concat:js', 'jshint']);
+    grunt.registerTask('js-build', ['concat:js']);
     grunt.registerTask('css-build', ['sass']);
     grunt.registerTask('default', ['clean', 'copy', 'concat', 'jshint', 'sass']);
 
